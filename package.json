@@ -1,0 +1,25 @@
+{
+  "name": "turbo-template",
+  "version": "0.0.1",
+  "description": "turborepo",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "dev:vite-vue3": "turbo dev --filter @apps/vite-vue3",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "keywords": [
+    "turborepo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^2.0.6",
+    "typescript": "^5.5.3",
+    "unbuild": "^2.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

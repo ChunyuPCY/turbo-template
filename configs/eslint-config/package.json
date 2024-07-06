@@ -1,0 +1,19 @@
+{
+  "name": "@config/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint": "^9.6.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^2.0.6"
+  }
+}
