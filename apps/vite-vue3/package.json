@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.29"
+    "vue": "^3.4.29",
+    "@vben/components": "workspace:*",
+    "@vben/math": "workspace:*"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
